@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+influxd restore -metadir /var/lib/influxdb/meta -datadir /var/lib/influxdb/data $1
