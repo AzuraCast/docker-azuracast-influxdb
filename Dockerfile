@@ -1,4 +1,4 @@
-FROM influxdb:1.6-alpine
+FROM influxdb:1.8-alpine
 
 RUN apk add --no-cache bash
 
